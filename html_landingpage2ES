@@ -1,0 +1,375 @@
+<!-- HTML Nuevo LP -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Tu Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate es un Chatbot de atención al cliente impulsado por IA.">
+  </head>
+  <body>
+    
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Español <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fas fa-check"></i> English</a>
+          <a href="#" class="active">Español</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Italiano</a>
+          <a href="#">हिंदी</a>
+          <a href="#">Norsk</a>
+          <a href="#">Hrvatski</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integraciones</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Canales
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Precios</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Iniciar Sesión</a>
+              <a href="#" class="navbar-item btn-primary">Registrarse</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<!-- Frame 1: Main Content -->
+<section class="frame1">
+  <div class="frame1-content">
+    <h1 class="title">ESTO ES CUSTOMATE</h1>
+    <p class="subtitle">
+      Un Chatbot de atención al cliente impulsado por IA para responder todas las preguntas de tus visitantes.<br />
+      Interactúa, asiste y convierte—en todos los canales que utilizan tus clientes.
+    </p>
+  </div>
+</section>
+
+<!-- Dynamic Arrow -->
+<div class="arrow-container">
+  <svg id="dynamic-arrow" preserveAspectRatio="none" viewBox="0 0 100 100">
+    <defs>
+      <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="0" refY="2" orient="auto">
+        <polygon points="0 0, 6 2, 0 4" class="arrow-head"></polygon>
+      </marker>
+    </defs>
+    <path id="arrow-path" class="arrow-path" marker-end="url(#arrowhead)"></path>
+  </svg>
+</div>
+
+  <!-- Frame 2: How the product works -->
+  <section class="frame2">
+    <div class="frame2-container">
+      <h2 class="frame2-title">Mira cómo funciona el portal de cliente de Customate</h2>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/sW2XR_rTfi0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+ <!-- Frame 3: Benefits -->
+ <section class="frame3">
+  <div class="frame3-container">
+    <h2 class="frame3-title">Beneficios</h2>
+    <div class="benefits-container">
+
+      <!-- Line 1: 3 cards -->
+      <div class="benefits-row row1">
+        <div class="benefit-card top-service">
+          <h3>Servicio de Calidad</h3>
+          <p>
+            Ofrece un servicio de atención al cliente confiable, escalable e ininterrumpido con
+            información siempre clara y precisa.
+          </p>
+        </div>
+        <div class="benefit-card lowest-time">
+          <h3>Menor Tiempo de Resolución</h3>
+          <p>
+            Evita retrasos. Tus clientes obtienen respuestas inmediatas 24/7 sin
+            esperar a un agente.
+          </p>
+        </div>
+        <div class="benefit-card multichannel">
+          <h3>Soporte Multicanal</h3>
+          <p>
+            No solo un widget de chatbot – nuestra solución funciona en correo electrónico, Facebook,
+            WhatsApp y más. (Canal telefónico próximamente.)
+          </p>
+        </div>
+      </div>
+
+      <!-- Line 2: 2 horizontal boxes -->
+      <div class="benefits-row row2">
+        <div class="benefit-card horizontal reduce-expenses">
+          <h3>Reduce Gastos</h3>
+          <p>
+            Paga mucho menos por personal de soporte o libera a tus empleados para actividades
+            más productivas.
+          </p>
+        </div>
+        <div class="benefit-card horizontal increase-income">
+          <h3>Aumenta Ingresos</h3>
+          <p>
+            Obtén leads, feedback e información clave para impulsar tus ventas y
+            mejorar tu servicio al cliente.
+          </p>
+        </div>
+      </div>
+
+      <!-- Line 3: 3 cards -->
+      <div class="benefits-row row3">
+        <div class="benefit-card integrations">
+          <h3>Integraciones</h3>
+          <p>
+            Nos adaptamos a ti. Conecta las aplicaciones que usas para gestionar tus
+            operaciones a nuestro portal. Solo recuperamos información relevante.
+          </p>
+        </div>
+        <div class="benefit-card advanced-ai">
+          <h3>Análisis de IA Avanzado</h3>
+          <p>
+            A través de nuestro modelo propio de aprendizaje automático, ofrecemos un óptimo
+            procesamiento de información y resultados.
+          </p>
+        </div>
+        <div class="benefit-card continuous-learning">
+          <h3>Aprendizaje Continuo</h3>
+          <p>
+            Tu Bot Customate evoluciona junto con el desarrollo de tu
+            base de conocimientos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Frame 4: Pricing -->
+ <section class="frame4">
+  <div class="frame4-container">
+    <h2 class="frame4-title">Precios</h2>
+    <div class="billing-options-row">
+      <div class="billing-options">
+        <span class="bill-me-label">Facturarme</span>
+        <label>
+          <input type="radio" name="billing" value="monthly" checked />
+          Mensual
+        </label>
+        <label>
+          <input type="radio" name="billing" value="annually" />
+          Anual
+        </label>
+      </div>
+    </div>
+    <div class="pricing-table-wrapper">
+      <table class="pricing-table-minimal">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Gratis</th>
+            <th>Básico</th>
+            <th class="premium-header">Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Precio</td>
+            <td>0€</td>
+            <td>
+              <span class="monthly">40€</span>
+              <span class="annually" style="display: none;">25€<span class="per-month">/mes</span></span>
+            </td>
+            <td class="premium-bg">
+              <span class="monthly">140€</span>
+              <span class="annually" style="display: none;">100€<span class="per-month">/mes</span></span>
+            </td>
+          </tr>
+          <tr>
+            <td>Mensajes incluidos</td>
+            <td>100</td>
+            <td>2,000</td>
+            <td class="premium-bg">15,000</td>
+          </tr>
+          <tr>
+            <td>Costo de mensajes extra</td>
+            <td>
+              No disponible<br /><small>Pasa al Plan Básico</small>
+            </td>
+            <td>15€ x 1,000 extra</td>
+            <td class="premium-bg">
+              <ul>
+                <li>6€ x 1,000 extra</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Almacenamiento</td>
+            <td>50MB</td>
+            <td>
+              200MB<br /><small>12€/GB extra</small>
+            </td>
+            <td class="premium-bg">
+              2GB<br /><small>8€/GB extra</small>
+            </td>
+          </tr>
+          <tr>
+            <td>Otros</td>
+            <td>Todos los canales</td>
+            <td>
+              Analíticas avanzadas,<br />Todos los Canales
+            </td>
+            <td class="premium-bg">
+              Widget Personalizado,<br />
+              Analíticas avanzadas,<br />
+              Todos los Canales,<br />
+              Soporte Prioritario,<br />
+              LLMs Pro
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Frame 5: Embrace the Future -->
+<div class="frame5">
+  <div class="frame5-background">
+    <div class="frame5-content">
+      <h2 class="frame5-title">Abraza el Futuro</h2>
+      <p class="frame5-subtitle">No esperes para ahorrar dinero, brindar mejor atención al cliente y obtener valiosas perspectivas de usuario.</p>
+      <div class="frame5-buttons">
+        <a href="#" class="button sign-up">Registrarse</a>
+        <a href="#" class="button contact-customate">Reservar una Demo</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="footer-logo" />
+          <p>Automatiza la Atención al Cliente</p>
+        </div>
+      </div>
+      
+      <div class="bottom-bar">
+        <div class="links">
+          <a href="https://www.customate.ai/imprint" target="_blank">Aviso Legal</a>
+          <a href="https://www.customate.ai/tac" target="_blank">Términos y Condiciones</a>
+          <a href="https://www.customate.ai/datause" target="_blank">Uso de Datos</a>
+          <a href="#contact" class="contactLink">Contáctanos</a>
+        </div>
+        <strong>
+          <a href="#feedback" class="feedback">Feedback</a>
+        </strong>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Feedback Modal -->
+  <div id="feedbackModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Valoramos tu Feedback</h3>
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>Ayúdanos a mejorar nuestro producto — ¿qué podemos hacer mejor? También, por favor cuéntanos sobre cualquier desafío de servicio al cliente que enfrentes en tu negocio.</p>
+        <textarea id="feedbackInput" placeholder="Tu feedback aquí..."></textarea>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" id="cancelFeedback">Cancelar</button>
+        <button class="btn-primary" id="sendFeedback">Enviar Feedback</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Contacta a Nuestro Equipo</h3>
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="contactName">Nombre</label>
+          <input type="text" id="contactName" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="contactEmail">Email</label>
+          <input type="email" id="contactEmail" placeholder="tu@email.com">
+        </div>
+        <div class="form-group">
+          <label for="contactInput">Mensaje</label>
+          <textarea id="contactInput" placeholder="¿Cómo podemos ayudarte?"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" id="cancelContact">Cancelar</button>
+        <button class="btn-primary" id="sendContact">Enviar Mensaje</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
